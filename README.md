@@ -2,6 +2,8 @@
 
 `redux-updeep` is a small reducer generator that uses [updeep](https://github.com/substantial/updeep) to immutably deep merge partial updates into the reducer's state. It's great for reducing boilerplate in your redux actions and reducers!
 
+[![Version][version-svg]][package-url] [![Build Status][travis-svg]][travis-url] [![License][license-image]][license-url]
+
 ## Installation
 
 `redux-updeep` is available on npm:
@@ -149,3 +151,12 @@ export function updateName(newName) {
 }
 ```
 
+
+[version-svg]: https://img.shields.io/npm/v/redux-updeep.svg?style=flat-square
+[package-url]: https://npmjs.org/package/redux-updeep.js
+[travis-svg]: https://img.shields.io/travis/algolia/redux-updeep/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/algolia/redux-updeep
+[license-image]: http://img.shields.io/badge/license-MIT-green.svg?style=flat-square
+[license-url]: LICENSE
+[downloads-image]: https://img.shields.io/npm/dm/redux-udeep.js.svg?style=flat-square
+[downloads-url]: http://npm-stat.com/charts.html?package=redux-updeep
