@@ -73,7 +73,7 @@ Updeep provides a number of utility functions which are very useful for handling
 
 ```js
 import createReducer from 'redux-updeep';
-import {reject} from 'updeep';
+import u from 'updeep';
 
 const initialState = {
   user: {
@@ -91,7 +91,7 @@ export function removeFavoriteColor(newFavoriteColors) {
     payload: {
       user: {
         // Will ensure the new array replaces the previous one instead of merging with it
-        favoriteColor: updeep.constant(newFavoriteColors)
+        favoriteColor: u.constant(newFavoriteColors)
       }
     }
   };
@@ -102,7 +102,7 @@ export function removeFavoriteColor(colorToRemove) {
     type: 'MY_REDUCER/REMOVE_FAVORITE_COLOR',
     payload: {
       user: {
-        favoriteColor: reject(item => item === colorToRemove)
+        favoriteColor: u.reject(item => item === colorToRemove)
       }
     }
   };
