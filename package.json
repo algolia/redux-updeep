@@ -1,6 +1,6 @@
 {
   "name": "redux-updeep",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "redux-updeep is a reducer generator that uses updeep to handle state updates",
   "main": "index.js",
   "repository": "https://github.com/algolia/redux-updeep",
