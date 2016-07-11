@@ -1,6 +1,6 @@
 # redux-updeep
 
-`redux-updeep` is a small reducer generator that uses [updeep](https://github.com/substantial/updeep) to immutably deep merge partial updates into the reducer's state. It's great for reducer boilerplate in your redux actions and reducers!
+`redux-updeep` is a small reducer generator that uses [updeep](https://github.com/substantial/updeep) to immutably deep merge partial updates into the reducer's state. It's great for reducing boilerplate in your redux actions and reducers!
 
 ## Installation
 
