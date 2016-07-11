@@ -1,0 +1,7 @@
+node_modules/
+dist/
+npm-debug.log
+docs/.sass-cache/
+docs/.webpack/
+.DS_Store
+.coverage/

@@ -1,0 +1,31 @@
+{
+  "name": "redux-updeep",
+  "version": "0.0.0",
+  "description": "redux-updeep is a reducer generator that uses updeep to handle state updates",
+  "main": "index.js",
+  "repository": "https://github.com/algolia/redux-updeep",
+  "scripts": {
+    "build": "LIBRARY_NAME=redux-updeep ./scripts/build.sh",
+    "release": "./scripts/release.sh",
+    "test": "mocha --opts .mocharc ./src/**/__tests__/*.js"
+  },
+  "author": "Alexandre Meunier <alexandre.meunier@algolia.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "updeep": "^0.16.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
+    "conventional-changelog": "^1.1.0",
+    "conventional-changelog-cli": "^1.2.0",
+    "json": "^9.0.4",
+    "mocha": "^2.5.3",
+    "mversion": "^1.10.1",
+    "semver": "^5.2.0",
+    "source-map-support": "^0.4.1"
+  }
+}

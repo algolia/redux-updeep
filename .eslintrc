@@ -1,0 +1,14 @@
+{
+  "extends": "algolia",
+  "globals": {
+    "describe": true,
+    "context": true,
+    "it": true,
+    "beforeEach": true,
+    "afterEach": true,
+    "expect": true,
+    "sinon": true,
+    "after": true,
+    "before": true
+  }
+}

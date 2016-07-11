@@ -1,0 +1,4 @@
+--require source-map-support/register
+--require babel-register
+--reporter dot
+--colors
